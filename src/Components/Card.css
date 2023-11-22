@@ -1,0 +1,123 @@
+
+/* Body and Fonts */
+body {
+    background-color: rgb(244, 239, 239);
+    font-family: "Nunito", sans-serif;
+  }
+  /* Container Styling */
+  .container {
+    padding: 100px 0;
+  }
+  
+  /* Profile Card Styling */
+  .profile {
+    max-width: 310px;
+    height: 75px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 0px;
+    position: relative;
+    z-index: 81;
+    border-radius: 12px;
+    box-shadow: #3b393b;
+  }
+  
+  /* Heading Styling */
+  .profile h2 {
+    color: #d4c6c6;
+  }
+  
+  /* Description Styling */
+  .profile p {
+    color: rgb(6, 6, 6);
+  }
+  .cam {
+    width: 70px;
+    padding: 0px;
+    height: 12px;
+    position: absolute;
+    top:0;
+    left:1;
+    display: flex;
+    font-size: 14px;
+  }
+  .cam h2 {
+    color: grey;
+  }
+  
+  
+  /* Example styles for the content inside .cam */
+  
+  /* Profile Image Styling */
+  .profile .image {
+    width: 20px;
+    height: 20px;
+    background: red;
+    border-radius: 50%;
+    margin: 0 auto;
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    transform-origin: bottom left;
+    box-shadow: 0 3px 15px rgba(10, 10, 10, 0.1);
+    transition: all 0.3s ease-in-out;
+    z-index: 85;
+  
+    /* Background Image */
+    background-image: url("");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
+  /* .title p{
+    width: 2000px;
+    padding: 45px;
+    display: flex;
+    height: 12px;
+    position: absolute;
+    top: 0;
+    
+    left: 2;
+    display: flex; */
+    .title {
+      text-align: left;
+      margin-top: -11px;
+      top: 10px;
+      padding-top: 15px;
+      padding-bottom: 15px;
+      color:#09000b;
+      font-weight: bold;
+      font-size: 13px;
+    }
+    .centre-box {
+      background-color: #ffffff; /* Background color of the box */
+      border: 1px solid #efebeb; /* Border for the box */
+      padding: 10px; /* Padding inside the box */
+      position: absolute; /* Positioning */
+      top: 79%; /* Position from the top */
+      left: 39%; /* Position from the left */
+      transform: translate(-50%, -50%); /* Center the box */
+      z-index: 85; /* Set the z-index */
+      display: flex;
+      align-items: center;
+      font-size: 13px;
+      
+      color: #3f3c3f;
+    }
+    
+    .image1 {
+      width: 13px; /* Adjust size as needed */
+      height: 15px; /* Adjust size as needed */
+      border-radius: 50%; /* To make it circular */
+      background-color:rgb(207, 201, 201); /* Change the color as desired */
+      margin-right: 10px; /* Adjust the margin as needed */
+    }
+    .status-container {
+        display: flex;
+        flex-direction: column;
+      }
+      
+      .status-section {
+        margin-bottom: 20px; /* Adjust spacing between sections as needed */
+      }

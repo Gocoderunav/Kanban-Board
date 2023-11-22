@@ -1,0 +1,214 @@
+.kanban-card {
+  
+    width: 270px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 0 2px 4px rgba(207, 106, 106, 0.1);
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    height: 100px;
+    box-shadow:black;
+    margin-left: 30px;
+    background-color: white;
+    margin-bottom: 23px;
+  }
+  
+  
+  
+  .user-profile img {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    position: absolute;
+    
+    right: 10px;
+  }
+  
+  .card-content {
+   
+    display: flex;
+    flex-direction: column;
+    
+  }
+  
+  .title-section {
+    margin-bottom: 0px;
+  }
+  .title-section h3 {
+    margin-top:0px;
+    font-size: 12px;
+    color: grey;
+  }
+  .title-section p {
+    margin-top:-9px;
+    font-size: 13px;
+    font-weight: bold;
+    
+  }
+  .feature-request {
+    
+    bottom:4%;
+    
+    position:absolute;
+    margin-left: 45px;
+    z-index: 8;
+    border: 1px solid #f5efef;
+    margin-bottom: 4px;
+    padding: 0.3px;
+    border-color:rgb(215, 207, 207);
+   
+  
+  }
+  
+  .feature-request button {
+    background-color: transparent;
+    border: none;
+    color: grey;
+    align-items: center;
+    font-size: 11px;
+    margin-bottom: 4px;
+    /* Add any specific styles for your network icon here */
+  }
+  .feature-request button::before {
+    content: ''; /* Empty content for pseudo-element */
+    display: inline-block;
+    width:11px; /* Size of the dot circle */
+    height: 11px; /* Size of the dot circle */
+    border-radius: 50%; /* Makes it a circle */
+    background-color:grey; /* Color of the dot circle */
+    margin-right: 5px; /* Space between dot and text */
+    
+  }
+  .dots-container {
+    display:flex;
+    align-items: center;
+   
+    bottom:4%;
+   
+    margin-bottom: 4px;
+    position:absolute;
+    margin-left: 2px;
+    z-index: 8;
+    border: 1px solid #f5efef;
+    font-size: 13px;
+    padding: 11.4px;
+    border-color:rgb(215, 207, 207);
+     /* Adjust space between dots and button */
+  }
+  
+  .dot {
+    width: 3px;
+    height: 3px;
+    border-radius: 50%;
+    background-color: grey;
+    margin-right: 2px; /* Adjust space between dots */
+  }
+  .container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr); /* Adjust as needed for the number of columns */
+    gap: 20px; /* Adjust spacing between columns */
+  }
+ .status-section h3{
+    margin-left: 40px;
+    padding-bottom:0px;
+    padding-top: 0px;
+    font-size: 16px;
+    color:#444343;
+ }
+ .status-cards{
+    margin-top:-90px;
+ }
+ .card{
+    margin-bottom: 10px;
+ }
+ /* .count {
+    font-size: 15px; /* Adjust font size as desired */
+    /* color:grey; /* Change color as desired */
+    /* margin-left: 5px;
+    display:inline-block; Adjust the space between status and count */
+  /* } */ 
+  /* .plus-button{
+    font-size: 18px;
+    border-color: grey;
+    border-radius: 0px;
+
+  }
+  .dots-button{
+
+  } */
+  .plus-button
+ {
+  border: none; /* Remove border */
+  background: none; /* Remove background color */
+  cursor: pointer; /* Show pointer cursor on hover */
+  /* Add any additional styling here */
+  font-size: 22px;
+  padding-bottom: 1px;
+  display:inline-flexbox;
+  
+}
+.dots-button{
+    border: none; /* Remove border */
+    background: none; /* Remove background color */
+    cursor: pointer; /* Show pointer cursor on hover */
+    /* Add any additional styling here */
+  }
+  /* CSS */
+
+ 
+ 
+  
+  
+  /* Other styles... */
+ 
+  
+ 
+  
+  /* Other styles... */
+ 
+  /* .side-end {
+    display: flex;
+    align-items: center;
+    text-align:justify;
+    
+  } */
+  
+  
+  /* Other styles... */
+  .status-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align:justify;
+  }
+  
+  /* ... */
+.count {
+    font-size: 15px;
+    color: grey;
+    display: justify;
+    
+  }
+  .count h4 {
+    font-size: 15px;
+    color: grey;
+    display: justify;
+    margin-right:60px;
+    
+  }
+  .side-end {
+    display: flex;
+    align-items: center;
+    gap: 5px; /* Adjust space between buttons */
+    text-align:justify;
+  }
+  .profile-icon {
+    border-radius: 50%; /* Applies circular border */
+    width: 40px; /* Set the width as needed */
+    height: 40px; /* Set the height as needed */
+    object-fit: cover; /* Maintain aspect ratio */
+    margin-right: 10px; /* Adjust the spacing between the icon and username */
+  }
+  
